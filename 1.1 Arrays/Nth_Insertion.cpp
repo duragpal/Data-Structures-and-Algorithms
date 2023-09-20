@@ -16,7 +16,7 @@ int main() {
     int i;
    int arr[5]={1,2,3,4,5};
    int len=sizeof(arr)/sizeof(arr[0]);
-   insert(arr,len,10,10,5);
+   len= insert(arr,len,10,10,5); //length changed
    for(i=0;i<len;i++){
        cout<<arr[i]<<" ";
    }
